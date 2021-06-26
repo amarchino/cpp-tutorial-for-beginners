@@ -3,25 +3,6 @@
     "tasks": [
         {
             "type": "cppbuild",
-            "label": "C/C++: cpp build active file",
-            "command": "/usr/bin/g++",
-            "args": [
-                "-g",
-                "${file}",
-                "-o",
-                "${fileDirname}/dist/${fileBasenameNoExtension}"
-            ],
-            "options": {
-                "cwd": "${fileDirname}"
-            },
-            "problemMatcher": [
-                "$gcc"
-            ],
-            "group": "build",
-            "detail": "compiler: /usr/bin/cpp"
-        },
-        {
-            "type": "cppbuild",
             "label": "C/C++: g++ build active file",
             "command": "/usr/bin/g++",
             "args": [
@@ -33,7 +14,7 @@
                 "${fileDirname}/dist/${fileBasenameNoExtension}",
             ],
             "options": {
-                "cwd": "${fileDirname}"
+                "cwd": "${fileDirname}",
             },
             "problemMatcher": [
                 "$gcc"
