@@ -28,7 +28,9 @@
                 "-g",
                 "${file}",
                 "-o",
-                "${fileDirname}/dist/${fileBasenameNoExtension}"
+                "${fileDirname}/dist/${fileBasenameNoExtension}",
+                "&&",
+                "${fileDirname}/dist/${fileBasenameNoExtension}",
             ],
             "options": {
                 "cwd": "${fileDirname}"
