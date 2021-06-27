@@ -3,8 +3,7 @@
 
 using namespace std;
 
-int main()
-{
+int main() {
     int value1 = 7;
     int value2 = 4;
 
